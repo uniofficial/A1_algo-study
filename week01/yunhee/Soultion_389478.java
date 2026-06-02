@@ -52,10 +52,8 @@ public class Soultion_389478 {
             boxNum += 1;
         }
         
-        int numIdx = num - 1;
-        
         // 찾는 상자의 인덱스 찾기
-        int tHeight = numIdx / w;
+        int tHeight = (num - 1) / w;
         int tWidth = -1;
         
         for (int i = 0; i < w; i++) {
